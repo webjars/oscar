@@ -13,14 +13,12 @@
 	<name>OSCAR-js</name>
 	<description>Mapping Framework</description>
 	<url>http://webjars.org</url>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<upstream.url><![CDATA[http://nexus.caris.priv/nexus/service/local/artifact/maven/redirect?r=public-snapshots&g=com.caris&a=oscar&v=LATEST&e=zip]]></upstream.url>
 		<destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
 		<workDir>${project.build.directory}/${project.artifactId}</workDir>
 	</properties>
-
 	<licenses>
 		<license>
 			<name>Apache</name>
@@ -28,7 +26,6 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-
 	<scm>
 		<url>https://github.com/caris/oscar-webjar</url>
 		<connection>scm:git:https://github.com/caris/oscar-webjar</connection>
@@ -64,13 +61,11 @@
 					</execution>
 				</executions>
 			</plugin>
-<!-- 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.1</version>
 			</plugin>
-
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
@@ -82,8 +77,6 @@
 					<autoReleaseAfterClose>true</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
- -->			
 		</plugins>
 	</build>
-
 </project>
