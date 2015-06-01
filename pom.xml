@@ -17,7 +17,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<upstream.url><![CDATA[http://nexus.caris.priv/nexus/service/local/artifact/maven/redirect?r=public-snapshots&g=com.caris&a=oscar&v=LATEST&e=zip]]></upstream.url>
 		<destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
-		<workDir>${project.build.directory}/${project.artifactId}</workDir>
 	</properties>
 	<licenses>
 		<license>
