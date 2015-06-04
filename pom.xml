@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -9,7 +8,7 @@
 	<packaging>jar</packaging>
 	<groupId>org.webjars</groupId>
 	<artifactId>oscar</artifactId>
-	<version>15.0.0-RC1-SNAPSHOT</version>
+	<version>15.0.0-RC1</version>
 	<name>OSCAR-js</name>
 	<description>Mapping Framework</description>
 	<url>http://webjars.org</url>
@@ -29,7 +28,7 @@
 		<url>https://github.com/webjars/oscar</url>
 		<connection>scm:git:https://github.com/webjars/oscar</connection>
 		<developerConnection>scm:git:https://github.com/webjars/oscar</developerConnection>
-		<tag>HEAD</tag>
+		<tag>oscar-15.0.0-RC1</tag>
 	</scm>
 	<build>
 		<plugins>
@@ -46,11 +45,9 @@
 						<configuration>
 							<target>
 								<echo message="download archive" />
-								<get src="${upstream.url}"
-									dest="${project.build.directory}/${project.artifactId}.zip" />
+								<get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
 								<echo message="unzip archive" />
-								<unzip src="${project.build.directory}/${project.artifactId}.zip"
-									dest="${project.build.directory}/lib" />
+								<unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/lib" />
 								<echo message="moving resources" />
 								<move todir="${destDir}">
 									<fileset dir="${project.build.directory}/lib" />
