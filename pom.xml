@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 	<groupId>org.webjars</groupId>
 	<artifactId>oscar</artifactId>
-	<version>15.0.1-RC1</version>
+	<version>15.0.1-RC1-SNAPSHOT</version>
 	<name>OSCAR-js</name>
 	<description>Mapping Framework</description>
 	<url>http://webjars.org</url>
