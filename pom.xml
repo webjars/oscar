@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 	<groupId>org.webjars</groupId>
 	<artifactId>oscar</artifactId>
-	<version>15.0.2-RC1-SNAPSHOT</version>
+	<version>15.0.2-RC1</version>
 	<name>OSCAR-js</name>
 	<description>Mapping Framework</description>
 	<url>http://webjars.org</url>
@@ -28,7 +28,7 @@
 		<url>https://github.com/webjars/oscar</url>
 		<connection>scm:git:https://github.com/webjars/oscar</connection>
 		<developerConnection>scm:git:https://github.com/webjars/oscar</developerConnection>
-		<tag>HEAD</tag>
+		<tag>oscar-15.0.2-RC1</tag>
 	</scm>
 	<build>
 		<plugins>
