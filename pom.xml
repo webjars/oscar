@@ -9,13 +9,13 @@
 	<packaging>jar</packaging>
 	<groupId>org.webjars</groupId>
 	<artifactId>oscar</artifactId>
-	<version>15.0.1-RC1-SNAPSHOT</version>
+	<version>15.0.2-RC1-SNAPSHOT</version>
 	<name>OSCAR-js</name>
 	<description>Mapping Framework</description>
 	<url>http://webjars.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<upstream.url><![CDATA[http://nexus.caris.com/nexus/content/repositories/public-releases/com/caris/oscar/15.0.1-RC1/oscar-15.0.1-RC1.zip]]></upstream.url>
+		<upstream.url><![CDATA[http://nexus.caris.com/nexus/content/repositories/public-releases/com/caris/oscar/15.0.2-RC1/oscar-15.0.2-RC1.zip]]></upstream.url>
 		<destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
 	</properties>
 	<licenses>
